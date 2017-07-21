@@ -1,26 +1,26 @@
 {
-    "AircraftList"		      : [ ],
+    "AircraftList"			: [ ],
 
-    "TypeName"				      : "DartlingGun",
-    "Icon"					        : "dartling_gun_avatar_small",
-    "Description"			      : "With a bow in his left and an arrow in his right, the Archer Monkey shoots at bloons like they're nothing.",
-    "BaseCost"				      : 320,
-    "RankToUnlock"		      : 18,
-    "DefaultWeapons"	      : [ "DartlingGun.weapon" ],
+    "TypeName"				: "DartlingGun",
+    "Icon"					: "dartling_gun_avatar_small",
+    "Description"			: "With a bow in his left and an arrow in his right, the Archer Monkey shoots at bloons like they're nothing.",
+    "BaseCost"				: 320,
+    "RankToUnlock"			: 18,
+    "DefaultWeapons"	    : [ "DartlingGun.weapon" ],
 	
-    "TargetingMode"			    : "First",
-    "RotatesToTarget"		    : true,
-    "CanTargetCamo"			    : false,
+    "TargetingMode"			: "First",
+    "RotatesToTarget"		: true,
+    "CanTargetCamo"			: false,
     "TargetIsWeaponOrigin"	: false,
 	
-    "CanBePlacedInWater"	  : false,
-    "CanBePlacedOnLand"		  : true,
-    "CanBePlacedOnPath"		  : false,
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
 
-    "UseRadiusPlacement"	  : true,
-    "PlacementRadius"		    : 10.0,
-    "PlacementW"			      : 0.0,
-    "PlacementH"			      : 0.0,
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 10.0,
+    "PlacementW"			: 0.0,
+    "PlacementH"			: 0.0,
 
     "SpriteUpgradeDefinition" : "DartlingGun.json",
 
