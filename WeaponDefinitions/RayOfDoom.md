@@ -28,8 +28,17 @@
 					
 					"Tasks":
 					[
-						{ "Type": "Damage", "DamageType": "Piercing", "Amount": 1 },
-						{ "Type": "StatusEffect", "Status": "", "DamageRate": 2.5, "Duration": 5 }
+						{ 
+							"Type"			: "Damage", 
+							"DamageType"	: "Piercing", 
+							"Amount": 1 
+						},
+						{ 
+							"Type"			: "StatusEffect", 
+							"Status"		: "", 
+							"DamageRate"	: 2.5, 
+							"Duration"		: 5 
+						}
 					]
 				}
 			]
