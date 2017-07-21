@@ -7,21 +7,21 @@
     "Tasks" :
     [
 		{
-			"Type"						: "MultiFire",
-			"InitialOffset"				: -7,
-			"AngleIncrement"			: 7,
-			"FireCount"					: 3,
+			"Type"			: "MultiFire",
+			"InitialOffset"		: -7,
+			"AngleIncrement"	: 7,
+			"FireCount"		: 3,
 			
 			"Tasks":
 			[
 				{
-					"Type"						: "Projectile",
-					"GraphicName"				: "mmm_archer_monkey_arrow_regular",
-					"NumPersists"				: 2,
+					"Type"				: "Projectile",
+					"GraphicName"			: "mmm_archer_monkey_arrow_regular",
+					"NumPersists"			: 2,
 					"TerminateOnZeroPersists"	: true,
-					"CollisionType"				: "Once",
+					"CollisionType"			: "Once",
 					
-					"SpreadAngle"				: 25,
+					"SpreadAngle"			: 25,
 					
 					"Movement":
 					{ "Type": "Forward", "Speed": 525.0, "CutOffDistance": 350 },
@@ -29,15 +29,15 @@
 					"Tasks":
 					[
 						{ 
-							"Type"			: "Damage", 
+							"Type"		: "Damage", 
 							"DamageType"	: "Piercing", 
-							"Amount": 1 
+							"Amount"	: 1 
 						},
 						{ 
-							"Type"			: "StatusEffect", 
-							"Status"		: "", 
+							"Type"		: "StatusEffect", 
+							"Status"	: "", 
 							"DamageRate"	: 2.5, 
-							"Duration"		: 5 
+							"Duration"	: 5 
 						}
 					]
 				}
